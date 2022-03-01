@@ -32,6 +32,7 @@ int main(){
         else{
             cout << "Please enter a valid option! (Answer 1-4 or choose 'lifeline', 'random', or 'leave'.)" << endl;
             }
+        questionNumber++;
     }
 
     return 0;
