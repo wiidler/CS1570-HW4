@@ -158,43 +158,43 @@ void lifeLine(int questionNumber){
         if(chance <= 8){
             switch(questionNumber){
                 case 1:{
-                    cout << endl << "Your friend said the answer is 3. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 3. What is your answer?" << endl;
                     break;
                 }
                 case 2:{
-                    cout << endl << "Your friend said the answer is 2. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 2. What is your answer?" << endl;
                     break;
                 }
                 case 3:{
-                    cout << endl << "Your friend said the answer is 1. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 1. What is your answer?" << endl;
                     break;
                 }
                 case 4:{
-                    cout << endl << "Your friend said the answer is 2. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 2. What is your answer?" << endl;
                     break;
                 }
                 case 5:{
-                    cout << endl << "Your friend said the answer is 2. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 2. What is your answer?" << endl;
                     break;
                 }
                 case 6:{
-                    cout << endl << "Your friend said the answer is 4. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 4. What is your answer?" << endl;
                     break;
                 }
                 case 7:{
-                    cout << endl << "Your friend said the answer is 4. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 4. What is your answer?" << endl;
                     break;
                 }
                 case 8:{
-                    cout << endl << "Your friend said the answer is 2. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 2. What is your answer?" << endl;
                     break;
                 }
                 case 9:{
-                    cout << endl << "Your friend said the answer is 3. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 3. What is your answer?" << endl;
                     break;
                 }
                 case 10:{
-                    cout << endl << "Your friend said the answer is 1. What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is 1. What is your answer?" << endl;
                     break;
                 }
             }
@@ -207,7 +207,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 3){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 2:{
@@ -215,7 +215,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 2){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 3:{
@@ -223,7 +223,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 1){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 4:{
@@ -231,7 +231,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 2){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 5:{
@@ -239,17 +239,17 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 2){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 6:{
                     randomFalse = (rand() % 3) + 1;
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 7:{
                     randomFalse = (rand() % 3) + 1;
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 8:{
@@ -257,7 +257,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 2){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 9:{
@@ -265,7 +265,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 3){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
                 case 10:{
@@ -273,7 +273,7 @@ void lifeLine(int questionNumber){
                     if (randomFalse == 1){
                         randomFalse = 4;
                     }
-                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your choice?" << endl;
+                    cout << endl << "Your friend said the answer is " << randomFalse << " . What is your answer?" << endl;
                     break;
                 }
             }            
