@@ -36,6 +36,8 @@ void leave(int & questionNumber , int & winLoseOrLeave);
 // Pre: winLoseOrLeave must be defined
 // Post: A certain message is outputted depending on whether the user wins, loses, or leaves, and how much money they left with
 void exitMessage(int winLoseOrLeave, int winnings);
+
+/***********************FUNCTION TEMPLATES***********************/
 // Definition: Updates money with any numeric value "T"
 // Pre: a truth value "isCorrect" and a numeric value "currentMoney"
 // Post: "currentMoney" is doubled if "isCorrect" is true and is -100 if "isCorrect" is false
